@@ -1,0 +1,16 @@
+{
+  "name": "klaytn_kip7_coin",
+  "version": "1.0.0",
+  "description": "create new coin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node coin.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "caver-js-ext-kas": "^1.12.0"
+  }
+}

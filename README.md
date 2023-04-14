@@ -1,1 +1,1 @@
-# Etherium
+# Solidity와 JS의 연결
