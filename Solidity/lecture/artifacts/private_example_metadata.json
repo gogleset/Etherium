@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "get_a",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lecture/04_접근제한자.sol": "private_example"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lecture/04_접근제한자.sol": {
+			"keccak256": "0x69105dfea8a9d97a85e653d419756476a2c8bb1482c1db1d76826b040b84e247",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://b82a2b49ca6c51db96a7e498c109f6cccd9af6a9f2dc070f3b14c0c6c413c637",
+				"dweb:/ipfs/QmVLS2deAytueUwskvbdEyY8fY3Sc9ZtCJRaCU2uM3Eajc"
+			]
+		}
+	},
+	"version": 1
+}

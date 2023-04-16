@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_search",
+						"type": "string"
+					}
+				],
+				"name": "linearSearch",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lecture/23_linearSearch.sol": "lec24"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lecture/23_linearSearch.sol": {
+			"keccak256": "0x998b51f0c51343162b1f07344e16d2cafac68ac2a1e168d1120342f8213c908b",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c485d189184f58ad123624e08e12cc7b906cd2ae37be79d9a9567cc5347bc546",
+				"dweb:/ipfs/QmNRYS4jTDXogJ3zBP1Cr4fnnfERfpPdFpupWRNNseAMpL"
+			]
+		}
+	},
+	"version": 1
+}

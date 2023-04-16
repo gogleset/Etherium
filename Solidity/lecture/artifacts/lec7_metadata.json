@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_str",
+						"type": "string"
+					}
+				],
+				"name": "get_string",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lecture/06_4개의저장공간과스트링.sol": "lec7"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lecture/06_4개의저장공간과스트링.sol": {
+			"keccak256": "0x1762525858c25857998179f93cb897631b4e44d6d45102a308b5caa898e8386e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e88979678592423a0c7a77805775ef846630ace6109e8fa1eeb4b482b30bdac8",
+				"dweb:/ipfs/QmNPnqy6Wpv8WFXwF3rsGCQFNFiEBPk6BwjDa4EetDBnJ3"
+			]
+		}
+	},
+	"version": 1
+}

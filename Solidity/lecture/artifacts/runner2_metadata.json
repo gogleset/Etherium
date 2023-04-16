@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "_err",
+						"type": "string"
+					}
+				],
+				"name": "catchOnly",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "playTryCatch",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "simple",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lecture/27_tryCatch_2.sol": "runner2"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lecture/27_tryCatch_2.sol": {
+			"keccak256": "0x34f0aa8002d964659202e49e5bd97bb5ab77f56812f41bff8153b83fa3de07e2",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://b8de9bd148f8fd14de7f19006036431dcd456d9572c0193ff3d008b661ff27a1",
+				"dweb:/ipfs/QmS1ty791jbiTvv7BK9aYoik8vKEccb48NAM3skqomhKeu"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,100 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "payment",
+						"type": "uint256"
+					}
+				],
+				"name": "WhoPaid",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "checkRound",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lecture/41_3의배수스마트컨트랙트.sol": "MoneyBox"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lecture/41_3의배수스마트컨트랙트.sol": {
+			"keccak256": "0x93fb7af02d476155d441f7d477afed1430a857253aa6f62481b5cd83d18c12a9",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://ef4f8aecc4a64cf070172773ab2f2dc9b1f12e2a8f75f71ddebc91cdc182c385",
+				"dweb:/ipfs/QmcWJ3ZVNcCGovH9emjb6wrMLFsWehU5afrDRUsj9JBbj2"
+			]
+		}
+	},
+	"version": 1
+}

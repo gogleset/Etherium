@@ -1,0 +1,124 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "enum lec38.CarStatus",
+						"name": "_carStatus",
+						"type": "uint8"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_carStatusInInt",
+						"type": "uint256"
+					}
+				],
+				"name": "carCurrentStatus",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "CheckStatus",
+				"outputs": [
+					{
+						"internalType": "enum lec38.CarStatus",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "DrivingCar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "StopCar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "carStatus",
+				"outputs": [
+					{
+						"internalType": "enum lec38.CarStatus",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "turnOffCar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "turnOnCar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lecture/37_Enum.sol": "lec38"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lecture/37_Enum.sol": {
+			"keccak256": "0x837032995a105355c7822a5447782d54c8a46c4c06236b7da0bd7b08021e344b",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://0ffef9c8c160c38281edc21e959fe11056e04cf3fc1b84447f020716efcb2e64",
+				"dweb:/ipfs/Qma21nRLNNV2xmvUY63he1FQU5LE1UPQhYBD8R7N6y5aoX"
+			]
+		}
+	},
+	"version": 1
+}

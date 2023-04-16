@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					}
+				],
+				"name": "JustFallbackWithFunds",
+				"type": "event"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lecture/34.fallback_~ver06.sol": "Bank"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lecture/34.fallback_~ver06.sol": {
+			"keccak256": "0x656679e592bd802e1ed732a73d6a4e34a3d467f1395d808a38998737ceb85535",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://20a6b2931d6fc1b252d504be81d8a70cb1e534f450016c5128cc3e6db0a4bced",
+				"dweb:/ipfs/QmREqZQ5bu1Ew5PdhVHzp3xtksGFpYY6Vc5LkuSDCyB3st"
+			]
+		}
+	},
+	"version": 1
+}

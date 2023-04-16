@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lecture/30_SPDX라이센스주석.sol": "lec31"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lecture/30_SPDX라이센스주석.sol": {
+			"keccak256": "0x75e2be4dbb401b212a38b4f70a4e75961a832bcc5df0cef3e9d4e06f71273ed4",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://348dbc9605fcee4f71d107de7117cd8c886934f40327cf1cdd5ca3ab5af23b71",
+				"dweb:/ipfs/QmW9HrjCRFKATHhaqNWNY5oaFFNgvAvsYJyU7xjS5CgUzP"
+			]
+		}
+	},
+	"version": 1
+}

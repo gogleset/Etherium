@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "FatherName",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "who",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lecture/15_상속의순서.sol": "Father"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lecture/15_상속의순서.sol": {
+			"keccak256": "0xbaef7cdefc75af17c3b6243cb82a943da9d9cad6f1ce8177077189d65679a7d6",
+			"license": "GPL-30",
+			"urls": [
+				"bzz-raw://4f63254eb7124e8ed91250a133e2ec56c8663fa6db16629d3e14af7e76f38203",
+				"dweb:/ipfs/Qmea7oNEFM81QPsrvCFj2KkySUrQdN2HNKP8HEtasb1bKQ"
+			]
+		}
+	},
+	"version": 1
+}
