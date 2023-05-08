@@ -41,28 +41,31 @@ const createToken = async () => {
     return err;
   }
 };
-createToken()
-  .then((data) => {
-    console.log(data);
-  })
-  .catch((err) => {
-    console.log(err);
-  });
+// createToken()
+//   .then((data) => {
+//     console.log(data);
+//   })
+//   .catch((err) => {
+//     console.log(err);
+//   });
 
 // 주소와 보내는 양
 async function transferToken(address, amount) {
-  const oeiToken = await new caver.kct.kp7(
-    "0x05A55B97d8ECc30219c3D285fBDe8f4bCcA9527C"
+  // 콘트랙트 어드레스 입력
+  const oeiToken = await new caver.kct.kip7(
+    "0x206d456a9bd2083080f0a2b261e9c78a139df424"
   );
   await oeiToken.setWallet(keyringContainer);
-  const receipt = await oeiToken.transter(address, amount, {
+  const receipt = await oeiToken.transfer(address, amount, {
     from: keyring.address,
   });
   console.log(receipt);
 }
 
+transferToken("0x3a4288c03c1b2fa5e8d7eedfecb0b7c61f8e4271", 1000000000);
+
 // 조회
-async function getBlance(address) {
+async function getBalance(address) {
   const oeiToken = await new caver.kct.kp7(
     "0x05A55B97d8ECc30219c3D285fBDe8f4bCcA9527C"
   );
@@ -74,3 +77,4 @@ async function createWallet() {
   const wallet = await caver.kas.wallet.createAccount();
   console.log(wallet);
 }
+module.exports = transferToken;
